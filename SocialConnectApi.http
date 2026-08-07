@@ -1,0 +1,6 @@
+@SocialConnectApi_HostAddress = http://localhost:5151
+
+GET {{SocialConnectApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
