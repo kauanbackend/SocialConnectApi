@@ -1,10 +1,12 @@
 # SocialConnect API
 
-## API de rede social desenvolvida com ASP.NET Core e Entity Framework Core.
-Sobre o projeto
+API de rede social desenvolvida com ASP.NET Core e Entity Framework Core.
 
-## A SocialConnect API é uma aplicação backend que simula os principais recursos de uma rede social, permitindo gerenciamento de usuários, publicações, comentários, curtidas e seguidores.
-## O projeto foi desenvolvido para praticar conceitos de desenvolvimento de APIs REST utilizando ASP.NET Core, Entity Framework Core e SQL Server.
+## Sobre o projeto
+
+A SocialConnect API é uma aplicação backend que simula os principais recursos de uma rede social, permitindo gerenciamento de usuários, publicações, comentários, curtidas e seguidores.
+
+O projeto foi desenvolvido para praticar conceitos de desenvolvimento de APIs REST utilizando ASP.NET Core, Entity Framework Core e SQL Server.
 
 ## Tecnologias utilizadas
 
@@ -16,6 +18,7 @@ Sobre o projeto
 - REST API
 
 ## Funcionalidades
+
 ### Usuários
 
 - Criar usuário
@@ -24,7 +27,7 @@ Sobre o projeto
 - Atualizar usuário
 - Remover usuário
 
-## Publicações
+### Publicações
 
 - Criar publicação
 - Listar publicações
@@ -32,26 +35,26 @@ Sobre o projeto
 - Atualizar publicação
 - Remover publicação
 
-## Comentários
+### Comentários
 
 - Criar comentário
 - Listar comentários
 - Atualizar comentário
 - Remover comentário
 
-## Curtidas
+### Curtidas
 
 - Curtir publicação
 - Remover curtida
 - Consultar curtidas
 
-## Seguidores
+### Seguidores
 
 - Seguir usuário
 - Deixar de seguir usuário
 - Consultar seguidores
 
-## Estrutura do Projeto
+### Estrutura do Projeto
 
 - Controllers
 - Services
@@ -73,7 +76,9 @@ dotnet run
 Acesse o Swagger:
 https://localhost:xxxx/swagger
 
-Autor
+##Autor
+
 Kauan da Silva
+
 Projeto desenvolvido para fins de estudo e construção de portfólio.
 
