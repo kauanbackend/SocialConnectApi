@@ -70,25 +70,25 @@ A API pode ser testada por meio do Swagger, que permite executar requisições H
 
 ### Endpoints disponíveis
 
-![Endpoints disponíveis no Swagger](swagger-endpoints.png)
+![Endpoints disponíveis no Swagger](docs/swagger-endpoints.png)
 
 ### POST — Criar relacionamento entre seguidores
 
 **Requisição:**
 
-![Corpo da requisição POST](swagger-post-request.png)
+![Corpo da requisição POST](docs/swagger-post-request.png)
 
 **Resposta — 200 OK:**
 
-![Resposta da criação do relacionamento](swagger-post-response.png)
+![Resposta da criação do relacionamento](docs/swagger-post-response.png)
 
 ### GET — Consultar relacionamento por ID
 
 **Resposta — 200 OK:**
 
-![Consulta do relacionamento por ID](swagger-get-seguidor-por-id.png)
+![Consulta do relacionamento por ID](docs/swagger-get-seguidor-por-id.png)
 
-![Detalhes da resposta da consulta](swagger-get-seguidor-por-id-detalhes.png)
+![Detalhes da resposta da consulta](docs/swagger-get-seguidor-por-id-detalhes.png)
 
 
 ## Como executar
