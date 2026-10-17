@@ -28,7 +28,7 @@ namespace SocialConnectApi.Controllers
             return await _service.GetById(id);
         }
 
-        [HttpPost("{id}")]
+        [HttpPost]
         public async Task<IActionResult> Post(UsuarioCreateDto dto)
         {
             return await _service.Post(dto);
