@@ -63,6 +63,34 @@ O projeto foi desenvolvido para praticar conceitos de desenvolvimento de APIs RE
 - Data (DbContext)
 - Migrations
 
+
+## Demonstração da API
+
+A API pode ser testada por meio do Swagger, que permite executar requisições HTTP e visualizar as respostas dos endpoints.
+
+### Endpoints disponíveis
+
+![Endpoints disponíveis no Swagger](swagger-endpoints.png)
+
+### POST — Criar relacionamento entre seguidores
+
+**Requisição:**
+
+![Corpo da requisição POST](swagger-post-request.png)
+
+**Resposta — 200 OK:**
+
+![Resposta da criação do relacionamento](swagger-post-response.png)
+
+### GET — Consultar relacionamento por ID
+
+**Resposta — 200 OK:**
+
+![Consulta do relacionamento por ID](swagger-get-seguidor-por-id.png)
+
+![Detalhes da resposta da consulta](swagger-get-seguidor-por-id-detalhes.png)
+
+
 ## Como executar
 
 1. Clone o repositório
